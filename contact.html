@@ -1,0 +1,201 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | VVVKB Heiveld</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/uikit/uikit.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <section class="hero">
+    <!-- Navbar met Hamburger Menu -->
+    <div class="uk-navbar-left"> <!-- Dit zorgt ervoor dat de drie streepjes aan de linkerkant staan -->
+        <button class="uk-navbar-toggle" uk-toggle="target: #offcanvas-push" aria-label="Toggle navigation">
+            <span uk-navbar-toggle-icon></span> <!-- Drie streepjes voor het menu -->
+        </button>
+    </div>
+  
+    <!-- Titel in het midden van de afbeelding -->
+    <h1>Contact</h1>
+  </section>
+  
+  <!-- Off-canvas Menu -->
+  <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+    <div class="uk-offcanvas-bar">
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+      <ul class="uk-nav uk-nav-offcanvas">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="activiteiten.html">Activiteiten</a></li>
+        <li><a href="groepen_leiding.html">De groepen en hun leiding</a></li>
+        <li><a href="hoofdleiding.html">Hoofdleiding</a></li>
+        <li><a href="uniform.html">Uniform</a></li>
+        <li><a href="drank_chips.html">Drank & Chips</a></li>
+        <li><a href="lidgeld.html">Lidgeld</a></li>
+        <li><a href="kamp.html">Kamp</a></li>
+        <li><a href="over_ons.html">Over ons</a></li>
+        <li><a href="inschrijven.html">Inschrijvingen</a></li>
+        <li><a href="helpende_hand.html">Helpende handen</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+    <main class="uk-section uk-section-default">
+        <div class="uk-container">
+            <div class="uk-grid-large uk-child-width-1-2@m" uk-grid>
+                <!-- Contact Form -->
+                <div>
+                    <h2>Stuur ons een bericht</h2>
+                    <form action="send_email.php" method="POST">
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="name">Naam</label>
+                            <input class="uk-input" id="name" name="name" type="text" placeholder="Jouw naam" required>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="email">E-mailadres</label>
+                            <input class="uk-input" id="email" name="email" type="email" placeholder="Jouw e-mailadres" required>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="message">Bericht</label>
+                            <textarea class="uk-textarea" id="message" name="message" rows="5" placeholder="Jouw bericht" required></textarea>
+                        </div>
+                        <div class="uk-margin">
+                            <button class="uk-button uk-button-primary" type="submit">Verstuur</button>
+                        </div>
+                    </form>
+                    
+                </div>
+
+                <!-- Contact Details -->
+                <div>
+                    <h2>Onze gegevens</h2>
+                    <p>Heb je vragen over onze activiteiten of wil je meer informatie? Neem gerust contact met ons op via de onderstaande gegevens.</p>
+                    <ul class="uk-list uk-list-divider">
+                        <li><span uk-icon="receiver"></span> Telefoon (Kato): <a href="tel:0491368588">0491 36 85 88</a></li>
+                        <li><span uk-icon="receiver"></span> Telefoon (Korneel): <a href="tel:0478629554">0478 62 95 54</a></li>
+                        <li><span uk-icon="mail"></span> E-mail: <a href="mailto:heiveld.opwijk@gmail.com">heiveld.opwijk@gmail.com</a></li>
+                        <li><span uk-icon="location"></span> Adres: Kouterlaan 1745 Opwijk</li>
+                    </ul>
+
+                    <h3>Sociale media</h3>
+                    <div class="social-links">
+                        <!-- Facebook -->
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                                <title>Facebook-color</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs>
+                            
+                            </defs>
+                                <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0">
+                                        <path d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z" id="Facebook">
+                            
+                            </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://instagram.com" target="_blank" class="instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)"/>
+                                <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)"/>
+                                <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)"/>
+                                <path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z" fill="white"/>
+                                <defs>
+                                <radialGradient id="paint0_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)">
+                                <stop stop-color="#B13589"/>
+                                <stop offset="0.79309" stop-color="#C62F94"/>
+                                <stop offset="1" stop-color="#8A3AC8"/>
+                                </radialGradient>
+                                <radialGradient id="paint1_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)">
+                                <stop stop-color="#E0E8B7"/>
+                                <stop offset="0.444662" stop-color="#FB8A2E"/>
+                                <stop offset="0.71474" stop-color="#E2425C"/>
+                                <stop offset="1" stop-color="#E2425C" stop-opacity="0"/>
+                                </radialGradient>
+                                <radialGradient id="paint2_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)">
+                                <stop offset="0.156701" stop-color="#406ADC"/>
+                                <stop offset="0.467799" stop-color="#6A45BE"/>
+                                <stop offset="1" stop-color="#6A45BE" stop-opacity="0"/>
+                                </radialGradient>
+                                </defs>
+                                </svg>
+                        </a>
+                      </div>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1494.5154453275934!2d4.1825913852002445!3d50.97557345891639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c395015e01f83f%3A0x122ab32ce497fe7!2sVVVKB%20Heiveld!5e0!3m2!1snl!2sbe!4v1737974686208!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+  <footer class="uk-section footer uk-padding-small">
+    <div class="uk-container">
+        <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
+            <div>
+                <h3 class="uk-text-uppercase">Over ons</h3>
+                <p>Wij zijn VVVKB Heiveld, een enthousiaste groep die samenkomt voor sport, spel en avontuur. Iedereen tussen 4 en 17 jaar is welkom!</p>
+            </div>
+
+            <div>
+                <h3 class="uk-text-uppercase">Contact</h3>
+                <ul class="uk-list uk-list-divider">
+                    <li><a href="tel:0491368588">Telefoon 1: 0491 36 85 88</a></li>
+                    <li><a href="tel:0478629554">Telefoon 2: 0478 62 95 54</a></li>
+                    <li><a href="mailto:iheiveld.opwijk@gmail.com">Email: heiveld.opwijk@gmail.com</a></li>
+                    <li><a href="https://www.vvvkbheiveld.be">Website: www.vvvkbheiveld.be</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="uk-text-uppercase">Social Media</h3>
+                <ul class="uk-iconnav">
+                    <li><a href="https://www.facebook.com/vvvkbheiveld" uk-icon="icon: facebook; ratio: 1.5"></a></li>
+                    <li><a href="https://www.instagram.com/vvvkbheiveld" uk-icon="icon: instagram; ratio: 1.5"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="uk-text-center uk-margin-top">
+            <p>&copy; 2025 VVVKB Heiveld - Alle rechten voorbehouden</p>
+        </div>
+    </div>
+  </footer>
+
+  <!-- Include UIKit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
