@@ -1,0 +1,54 @@
+.hero {
+  background: url('../img/groepen/Leiding_kamp.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+/* Zorg ervoor dat de caption altijd zichtbaar blijft */
+.uk-lightbox .uk-caption {
+    display: block !important; /* Caption altijd zichtbaar */
+    opacity: 1 !important; /* Volledig zichtbare caption */
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparante achtergrond voor de caption */
+    padding: 10px;
+}
+
+.groepen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Ruimte tussen de items */
+    margin: 2rem auto; /* Margin van 2rem rondom de sectie en automatisch centreren */
+    justify-content: center; /* Centreert de inhoud horizontaal */
+    max-width: 1200px; /* Optioneel: beperkt de breedte van de sectie voor grote schermen */
+  }
+  
+  .uk-lightbox img {
+    max-width: 100%; /* Zorgt ervoor dat de afbeelding niet breder is dan de container */
+    max-height: 90vh; /* Beperkt de hoogte tot 90% van de schermhoogte */
+    object-fit: contain; /* Houdt de verhouding intact en past de afbeelding aan binnen de container */
+    display: block; /* Verwijdert ongewenste witte ruimte rondom inline-afbeeldingen */
+    margin: 0 auto; /* Centreert de afbeelding binnen de lightbox */
+  }
+  
+  .uk-lightbox, .lightbox-container {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+  }  
+
+  .groepen div {
+    box-sizing: border-box;
+    flex: 0 0 calc(33.33% - 20px); /* Zorgt ervoor dat elke div 33.33% van de breedte neemt op grote schermen */
+  }
+  
+  @media (max-width: 768px) {
+    .groepen div {
+      flex: 0 0 calc(50% - 20px); /* Zorgt ervoor dat elke div 50% van de breedte neemt op kleinere schermen */
+    }
+  }
+
+.intro{
+    margin: 2rem;
+}
+
+ 

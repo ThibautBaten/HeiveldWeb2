@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: url('../img/wapenstilstand_24.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+main {
+    margin: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.item {
+    margin-top: 3rem;
+}
+
+.uk-inline {
+    margin: 0;
+}

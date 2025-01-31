@@ -1,0 +1,17 @@
+.hero {
+    background: url('../img/kadullen_sint_2024.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+main {
+    margin: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+span {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}

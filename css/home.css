@@ -1,0 +1,26 @@
+.hero {
+  background: url('../img/lokaalfeesten_2024.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+.uk-grid-large {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+uk-width-1-2@m {
+  width: 48%;
+}
+
+uk-width-1-2@m img {
+  max-width: 100%;
+ height: auto;
+}
+
+@media (max-width: 767px) {
+  uk-width-1-2@m {
+    width: 100%;
+  }
+}
+
+

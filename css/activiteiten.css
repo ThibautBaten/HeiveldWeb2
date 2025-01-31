@@ -1,0 +1,28 @@
+.hero {
+    background: url('../img/kampvuur_kastaars_2024.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+.uk-grid {
+    margin: 2rem;
+}
+
+.uk-subnav {
+    margin: 2rem;
+}
+
+.uk-card-body {
+    text-align: left;
+}
+
+.uk-card .uk-card-default {
+    border-radius: 1rem;
+}
+
+.uk-card img {
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem;
+}
+
+ul {
+    list-style: none;
+}

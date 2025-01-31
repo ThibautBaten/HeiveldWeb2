@@ -1,0 +1,14 @@
+.hero {
+    background: url('../img/postkaart_uniform.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+main {
+    margin: 2rem;
+}
+
+.uniform {
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: url('../img/kamp_foto_2023.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.uk-card {
+    border: solid 1px rgb(68, 134, 3);
+}
+
+.kampplaatsen {
+    margin-top: 2rem;
+}
+
+.uk-grid img {
+    width: 400px;
+    height: 300px;
+}

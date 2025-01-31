@@ -1,0 +1,22 @@
+.hero {
+    background: url('../img/kadullen_sint_2024.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+main {
+    margin: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.custom-dropdown {
+    width: 400px; /* Pas de breedte naar wens aan */
+    white-space: normal; /* Zorg dat tekst op meerdere regels kan worden weergegeven */
+}
+
+.uk-button {
+    background-color: rgba(79, 161, 13, 0.818);
+    color: white;
+}
+

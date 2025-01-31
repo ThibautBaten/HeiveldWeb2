@@ -1,0 +1,28 @@
+.hero {
+    background: url('../img/hoofleiding_korneel.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+.uk-grid {
+    margin: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px; /* Optioneel, voor wat ruimte rond de inhoud */
+}
+  
+.uk-card {
+    max-width: 900px;
+    width: 100%;
+}
+
+.custom-dropdown {
+    width: 300px; /* Pas de breedte naar wens aan */
+    white-space: normal; /* Zorg dat tekst op meerdere regels kan worden weergegeven */
+}
+
+
+

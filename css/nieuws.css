@@ -1,0 +1,11 @@
+.hero {
+    background: url('../img/kastaars_24.25.jpg') center center/cover no-repeat; /* Zorg dat de afbeelding past */
+}
+
+main {
+    margin: 2rem;
+}
+
+.uk-card{
+    border: solid 1px rgb(68, 134, 3);
+}
